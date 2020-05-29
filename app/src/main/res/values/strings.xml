@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Covid19</string>
+    <string name="stat_prompt">Choose a filter</string>
+    <string-array name="statArray">
+        <item>Case</item>
+        <item>Death</item>
+        <item>Recover</item>
+
+    </string-array>
+</resources>

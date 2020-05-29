@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+android:background="@drawable/border"
+    >
+
+    <TextView
+        android:id="@+id/country"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="@color/colorPrimaryDark"
+        android:textStyle="bold"
+        android:text="kem"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/totalCases"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:paddingBottom="2dip"
+        android:textColor="#040404"
+        android:text="chpo"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/deaths"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#5d5d5d"
+        android:textStyle="bold"
+        android:text="saru"
+        android:layout_weight="1"/>
+    <TextView
+        android:id="@+id/recovered"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#5d5d5d"
+        android:textStyle="bold"
+        android:text="saru"
+        android:layout_weight="1"/>
+</LinearLayout>
